@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="./images/logo.svg" alt="logo">
+  </div>
+  <div class="container">
+    <div class="input">
+      <div class="input__payment">
+        <label for="name">Bill</label>
+        <input type="number" name="name" placeholder="0">
+      </div>
+      <div class="input__percent-tip">
+        <span>Select Tip %</span>
+        <div class="input__percent-tip-button">
+          <button value="5" class="">5%</button>
+          <button value="10">10%</button>
+          <button value="15">15%</button>
+          <button value="25">25%</button>
+          <button value="50">50%</button>
+          <input type="number" class="Custom" placeholder="Custom">
+        </div>
+      </div>
+      <div class="input__total-person">
+        <label for="name">Number of People</label>
+        <label for="name" class="">Can't be zero</label>
+        <input t.inpuype="number" name="name"  placeholder="0" class="">
+      </div>
+    </div>
+
+    <div class="output">
+      <div class="output__tip-money output__money">
+        <div class="title"><span>Tip Amount</span><br>/ person</div>
+        <div class="money">$<span>0.00</span></div>
+      </div>
+      <div class="output__pay-money output__money">
+        <div class="title"><span>Total</span><br>/ person</div>
+        <div class="money">$<span>0.00</span></div>
+      </div>
+      <div class="output__btn">
+        <button>Reset</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="./main.js"></script>
+
+</body>
+</html>
