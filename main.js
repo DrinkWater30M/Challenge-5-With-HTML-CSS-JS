@@ -108,12 +108,6 @@ function main(){
             eTotalBill.innerText = totalPayment();
         }
 
-        if(priceBill != 0 && totalPerson != 0){
-
-        }
-        console.log('bill: ' + priceBill);
-        console.log('tip: ' + tipPercent);
-        console.log('person: ' + totalPerson);
     }, 500)
 }
 
